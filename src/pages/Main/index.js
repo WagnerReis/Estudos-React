@@ -20,7 +20,6 @@ export default function Main() {
     }
   }, []);
 
-
   //Salvar
   useEffect(() => {
     localStorage.setItem('repos', JSON.stringify(repositorios));
